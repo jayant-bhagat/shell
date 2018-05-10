@@ -78,6 +78,10 @@ apt-get -y install mysql-server
 
 
 
+
+
+
+
 cat > $apacheconf << EOL
 <VirtualHost *:80>
         
