@@ -1,0 +1,34 @@
+svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" "}' | sort -u > authors-transform.txt
+
+cat authors-transform.txt |tr "\n" " " > authors-transform1.txt
+
+sed -i -e 's/^/ /' authors-transform1.txt
+
+
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/StratasFair
+
+
+resorce arn
+arn:aws:codecommit:us-east-1:294649740626:StratasFair
+
+
+User name
+jayant.bhagat-at-294649740626
+Password
+5uGSLRUaZJu0nWv3GWa0LYCShNPfDzBcT+jLoFdcaCs= Hide 
+
+
+Welcome@NMG
+
+14312
+
+
+User name
+pankaj.jain-at-294649740626
+Password
+2rgXNjtvlwdblAeFdA8WxcEc86KmSUJ9zFNwHftQbWU= Hide 
+
+
+
+
+
