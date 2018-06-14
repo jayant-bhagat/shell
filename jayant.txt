@@ -1,6 +1,4 @@
 
-AKIAI7Z546NLUG3344FQ
-vil5RJ41WqMsIrcvo4QJV7KyqKTrDD6cqvsMn1rH Hide 
 
 arn:aws:iam::294649740626:policy/PHP-opensource1
 
