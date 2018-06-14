@@ -42,9 +42,9 @@ SetEnv GIT_PROJECT_ROOT /var/www/git
             AuthName "Staratafair git repository"
             AuthBasicProvider ldap
             AuthzLDAPAuthoritative on
-            AuthLDAPURL ldap://nmg-new-dc.newmediaguruorg.com:3268/DC=newmediaguruorg,DC=com?sAMAccountName?sub?(objectClass=user)
-            AuthLDAPBindDN     svnauth@NEWMEDIAGURUORG.COM
-            AuthLDAPBindPassword svn0098#
+            AuthLDAPURL ldap:///DC=newmediaguruorg,DC=com?sAMAccountName?sub?(objectClass=user)
+            AuthLDAPBindDN     
+            AuthLDAPBindPassword 
             Include $gitconf.txt
 #            Satisfy any
    </LocationMatch>
