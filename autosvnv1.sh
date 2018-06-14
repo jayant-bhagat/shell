@@ -41,8 +41,8 @@ AuthType Basic
 AuthName "SVN Auth"
 AuthBasicProvider "ldap"
 AuthLDAPURL ldap://nmg-new-dc.newmediaguruorg.com:3268/DC=newmediaguruorg,DC=com?sAMAccountName?sub?(objectClass=user)
-AuthLDAPBindDN     svnauth@NEWMEDIAGURUORG.COM
-AuthLDAPBindPassword svn0098#
+AuthLDAPBindDN     
+AuthLDAPBindPassword 
 authzldapauthoritative Off
 AuthzSVNAccessFile /etc/svn/$svnconf
 require valid-user 
