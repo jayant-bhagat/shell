@@ -1,0 +1,25 @@
+{
+   "data":[
+      {
+         "text":"jaynt",
+         "isMetadata":false
+      },
+      {
+         "text":"kumar",
+         "isMetadata":false
+      },
+      {
+         "text":"metadata.xml",
+         "isMetadata":true
+      },
+      {
+         "text":"bhagat",
+         "isMetadata":false
+      },
+      {
+         "text":"nmg",
+         "isMetadata":false
+      }
+   ]
+}
+

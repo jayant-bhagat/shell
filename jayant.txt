@@ -1,0 +1,8 @@
+
+
+tr -d '. ' < a.txt | cut -d '/' -f2 | uniq
+find . -newermt "2013-01-01 00:00:00" ! -newermt "2013-01-02 00:00:00"
+
+
+
+
